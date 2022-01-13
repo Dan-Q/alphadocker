@@ -11,7 +11,7 @@ start)
 	do
 		REALPATH=$(readlink "${REALPATH}")
 	done
-	CFG=$(dirname "${REALPATH}")/${LIMA_INSTANCE}.yaml
+	CFG=$(dirname "${REALPATH}")/${LIMA_INSTANCE}.yml
 	if ( limactl list | fgrep -q "${LIMA_INSTANCE}" )
 	then
 		limactl start "${LIMA_INSTANCE}"

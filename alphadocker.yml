@@ -5,6 +5,12 @@ images:
   arch: "x86_64"
   digest: "sha512:8185d679a11527f804a9b6d3c05c4b7299f9b3a297381b490d713a9e3d25c5e6b818be6da7a4c45191a2a5bd6cef7083fe04f70454c8466e7d4ceda1b81ee379"
 
+# Performance tweaks? Try uncommenting and increasing these:
+# cpus: 4
+# memory: "4Gib"
+# And maybe this, if needed? (shouldn't be!?)
+# disk: "100GiB"
+
 mounts:
 - location: "~"
   writable: true

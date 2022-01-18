@@ -6,7 +6,7 @@ Experimental fork of [docker-on-lima](https://github.com/levsha/docker-on-lima) 
 
 ```sh
 brew install docker lima
-sudo git clone https://github.com/Dan-Q/alphadocker /usr/local/lib/docker-on-lima
+sudo git clone https://github.com/Dan-Q/alphadocker /usr/local/lib/alphadocker
 sudo ln -s /usr/local/lib/alphadocker/alphadocker /usr/local/bin/alphadocker
 ```
 
